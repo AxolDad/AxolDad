@@ -1,7 +1,20 @@
 - 👋 Hi, I’m @AxolDad
-- 👀 I’m interested in learning RaspberryPi stuff.
-- 🌱 I’m currently learning E-Paper
-- 💞️ I’m looking to collaborate on any RaspberryPi projects
+I do stuff.
+The i've been learning to code.  Python, C++, Rust, HTML, CSS, JS, REACT....
+Iot projects, Raspberry Pi, 3D Printing.
+Network Development and Management.
+Computer Building.
+Aquascaping fresh water aquariums.
+Gaming...presently Hunter Call of the Wild.
+EMT, Psych, 988 Volunteer.
+Learning to weld (Tig, Mig, Stick).
+Crypto and News follower.
+Father.
+
+I post what I am in the mood to post.  
+
+Say hi any time!
+
 
 <!---
 AxolDad/AxolDad is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
