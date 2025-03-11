@@ -13,6 +13,10 @@ Father.
 
 I post what I am in the mood to post.  
 
+Current Projects: TFT ESP32 Flappy Bird style game, Seeed Studio Watcher, 
+React Website Development with live data update, Psychology related apps for 
+anxiety and crisis management, Urgent Care symptom checker and AI.
+
 Say hi any time!
 
 
