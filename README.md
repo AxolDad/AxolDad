@@ -5,7 +5,6 @@ Iot projects, Raspberry Pi, 3D Printing.
 Network Development and Management.
 Computer Building.
 Aquascaping fresh water aquariums.
-Gaming...presently Hunter Call of the Wild.
 EMT, Psych, 988 Volunteer.
 Learning to weld (Tig, Mig, Stick).
 Crypto and News follower.
