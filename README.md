@@ -2,7 +2,7 @@
 
 > I build things that make systems work smarter and people’s lives a little easier.  
 > Part developer, part maker, part human in progress.
-> Personal dev portfolio site ioio.dev
+> Personal dev portfolio [site](https://ioio.dev).
 
 ---
 
