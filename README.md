@@ -1,55 +1,86 @@
-# 👋 Hi, I’m **@AxolDad**
+# 👋 Hi, I'm **@AxolDad**
 
-> I build things that make systems work smarter and people’s lives a little easier.  
-> Part developer, part maker, part human in progress.
-> Personal dev portfolio [site](https://ioio.dev).
+> CEO & Founder building healthcare tech that empowers the invisible workforce.  
+> Part developer, part EMT, part human in progress.  
+> Personal dev portfolio: [ioio.dev](https://ioio.dev)
 
 ---
 
 ### 🧠 About Me  
-- 🖥️ **Web Developer** focused on modern **React + JavaScript** applications  
-- ⚙️ Full-stack capable — from **frontend UX** to **Node.js, APIs, and database integration**  
-- 🔒 Experienced in **HIPAA-compliant, secure system design** and isolated infrastructure  
-- 🚑 **Volunteer EMT & Crisis Responder** with a background in **psychology and behavioral health**  
-- 💡 Passionate about building **purpose-built digital tools** for mental wellness and crisis care  
+- 🏥 **CEO & Founder** of [Code Pause Inc.](https://codepause.com) — building **OutsideINsights**, empowering **63 million unpaid home health caregivers** with tools to validate their observations
+- 🛰️ Building **space communications systems** with **Pale Blue Systems**
+- 🖥️ **Full-stack developer** specializing in **modern React, Bun, Hono, and PostgreSQL**
+- 🔒 Expert in **HIPAA-compliant, secure system design** and isolated infrastructure  
+- 🚑 **25-year EMT & Crisis Responder** — currently volunteering with **988 crisis lines**
+- 🧠 Background in **psychology and behavioral health** — building tech that bridges clinical care and human compassion
+- 💡 Giving America's largest unpaid workforce the clinical intelligence tools they deserve
 
 ---
 
-### 💻 Tech Stack & Interests  
+### 💻 Tech Stack  
 
-#### 🧩 Languages & Frameworks  
+#### 🧩 Core Stack  
 ![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
 ![React](https://img.shields.io/badge/-React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
+![Bun](https://img.shields.io/badge/-Bun-000000?style=for-the-badge&logo=bun&logoColor=white)
 ![Node.js](https://img.shields.io/badge/-Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
+![Hono](https://img.shields.io/badge/-Hono-E36002?style=for-the-badge)
+![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
+![Drizzle ORM](https://img.shields.io/badge/-Drizzle-C5F74F?style=for-the-badge&logo=drizzle&logoColor=black)
+
+#### 🛠️ Also Working With  
 ![Python](https://img.shields.io/badge/-Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![C++](https://img.shields.io/badge/-C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
 ![Rust](https://img.shields.io/badge/-Rust-000000?style=for-the-badge&logo=rust&logoColor=white)
-
-#### 🛠️ Tools & Platforms  
 ![Raspberry Pi](https://img.shields.io/badge/-Raspberry%20Pi-A22846?style=for-the-badge&logo=raspberrypi&logoColor=white)
 ![ESP32](https://img.shields.io/badge/-ESP32-2C2C2C?style=for-the-badge)
 ![Docker](https://img.shields.io/badge/-Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![GitHub](https://img.shields.io/badge/-GitHub-181717?style=for-the-badge&logo=github)
-![3D Printing](https://img.shields.io/badge/-3D%20Printing-FF6F00?style=for-the-badge)
-![Network](https://img.shields.io/badge/-Networking-0A66C2?style=for-the-badge)
 
 ---
 
 ### ⚙️ Current Projects  
-- 🧩 **Secure Behavioral Health Tools** — purpose-built apps for crisis and care management  
-- 🌐 **React Live Data Dashboard** — real-time web systems for enterprise environments  
-- 🎮 **ESP32 Flappy Bird-Style Game** — hardware-based fun meets embedded logic  
-- ⌚ **Seeed Studio Watcher** — IoT monitoring and alert platform  
-- 🧘‍♂️ **AI-Assisted Self-Check Tools** — bridging mental wellness and urgent-care triage  
+
+#### 🏥 **OutsideINsights** (Active Development)
+Empowering **63 million unpaid home health caregivers** with clinical intelligence tools:
+- **VR-12-aligned continuous monitoring** to validate caregiver observations
+- **"Better, Same, Worse" survey methodology** for tracking patient trajectory
+- Real-time patient outcome monitoring for Medicare Advantage plans
+- **TanStack ecosystem** for robust data handling and UI
+- **Rhapsody Health integration** for EMR connectivity
+
+#### 🛰️ **Pale Blue Systems** (Space Communications)
+Building next-generation communications infrastructure for space applications.
+
+#### 🚑 **Crisis Intervention Solutions**
+Peer-to-peer de-escalation tools based on the **Taft Method** — 25 years of EMT and crisis counselor experience distilled into training and technology.
+
+#### 🤖 **AI Model Fine-Tuning**
+Exploring fast/slow model architectures for clinical intelligence systems on Raspberry Pi hardware.
+
+#### 🎮 **Side Projects**
+- ESP32 hardware game development
+- IoT monitoring platforms
+- Modern adaptation of Ann Radcliffe's *"The Mysteries of Udolpho"*
 
 ---
 
-### 🧰 When I’m Not Coding  
-You’ll find me:
+### 🌱 What I'm Up To  
+- 💼 **Fundraising** for OutsideINsights — targeting VCs with warm intros
+- 📊 Building **market intelligence** on Medicare Advantage payers (UnitedHealth, Humana, CVS Health)
+- 🎯 Positioning healthcare's **$600B unpaid caregiver workforce** as the solution to Medicare's monitoring crisis
+- 🛰️ Developing **space communications technology** with Pale Blue Systems
+- 🔧 Refining technical demos and investor-grade research
+
+---
+
+### 🧰 When I'm Not Coding  
+You'll find me:
+- 📚 Collecting rare books (first editions, classics, childrens, signed)
+- 🪙 Coin collecting with a focus on commeratives 
 - 🌿 Aquascaping freshwater tanks  
-- 🔧 Building PCs and IoT projects  
 - 🔥 Learning TIG, MIG, and stick welding  
-- 🧠 Thinking up ways to blend technology with human compassion  
+- 🧠 Volunteering on 988 crisis lines
 
 Sometimes all in the same day.
 
@@ -62,16 +93,15 @@ Sometimes all in the same day.
 
 ---
 
-### 💬 Say Hi  
-I post what I’m in the mood to post — projects, experiments, or late-night ideas.  
-Always open to collaboration, questions, or good conversation.  
+### 💬 Let's Connect  
+Building at the intersection of healthcare, crisis response, space communications, and technology.  
+Always open to collaboration, investor conversations, or good ideas.
 
-📫 **Reach me here on GitHub — or just say hi in the issues of something cool.**
+📫 **Reach me:** GitHub • [ioio.dev](https://ioio.dev)
 
 ---
 
-⭐ _“Build with purpose. Share what you learn. Stay curious.”_
-
+⭐ _"Build with purpose. Empower the invisible workforce. Stay curious."_
 
 <!---
 AxolDad/AxolDad is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
