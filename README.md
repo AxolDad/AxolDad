@@ -56,7 +56,7 @@ Building next-generation communications infrastructure for space applications.
 Peer-to-peer de-escalation tools based on the **Taft Method** — 25 years of EMT and crisis counselor experience distilled into training and technology.
 
 #### 🤖 **AI Model Fine-Tuning**
-Exploring fast/slow model architectures for clinical intelligence systems on Raspberry Pi hardware.
+Exploring fast/slow model architectures for clinical intelligence systems.
 
 #### 🎮 **Side Projects**
 - ESP32 hardware game development
