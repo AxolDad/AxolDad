@@ -8,7 +8,7 @@
 
 ### 🧠 About Me  
 - 🏥 **CEO & Founder** of [Code Pause Inc.](https://codepause.com) — building **OutsideINsights**, empowering **63 million unpaid home health caregivers** with tools to validate their observations
-- 🛰️ Building **space communications systems** with **Pale Blue Systems**
+- 🛰️ Building **space communications systems** with **Pale Blue Systems** using QUIC, HTTP/3, and DWDM optical multiplexing
 - 🖥️ **Full-stack developer** specializing in **modern React, Bun, Hono, and PostgreSQL**
 - 🔒 Expert in **HIPAA-compliant, secure system design** and isolated infrastructure  
 - 🚑 **25-year EMT & Crisis Responder** — currently volunteering with **988 crisis lines**
@@ -50,7 +50,11 @@ Empowering **63 million unpaid home health caregivers** with clinical intelligen
 - **Rhapsody Health integration** for EMR connectivity
 
 #### 🛰️ **Pale Blue Systems** (Space Communications)
-Building next-generation communications infrastructure for space applications.
+Building next-generation communications infrastructure for space applications:
+- **QUIC & HTTP/3 protocols** for low-latency, reliable space-to-ground communications
+- **DWDM (Dense Wavelength Division Multiplexing)** optical systems using multiple wavelengths for high-bandwidth data transmission
+- **Riccati algebra** for advanced signal processing and control systems
+- Developing resilient network architectures for extreme environments
 
 #### 🚑 **Crisis Intervention Solutions**
 Peer-to-peer de-escalation tools based on the **Taft Method** — 25 years of EMT and crisis counselor experience distilled into training and technology.
@@ -69,15 +73,15 @@ Exploring fast/slow model architectures for clinical intelligence systems.
 - 💼 **Fundraising** for OutsideINsights — targeting VCs with warm intros
 - 📊 Building **market intelligence** on Medicare Advantage payers (UnitedHealth, Humana, CVS Health)
 - 🎯 Positioning healthcare's **$600B unpaid caregiver workforce** as the solution to Medicare's monitoring crisis
-- 🛰️ Developing **space communications technology** with Pale Blue Systems
+- 🛰️ Developing **space communications technology** with Pale Blue Systems — QUIC/HTTP/3 protocols and DWDM optical systems
 - 🔧 Refining technical demos and investor-grade research
 
 ---
 
 ### 🧰 When I'm Not Coding  
 You'll find me:
-- 📚 Collecting rare books (first editions, classics, childrens, signed)
-- 🪙 Coin collecting with a focus on commeratives 
+- 📚 Collecting rare books (first editions, classics, children's, signed)
+- 🪙 Coin collecting with a focus on commemoratives
 - 🌿 Aquascaping freshwater tanks  
 - 🔥 Learning TIG, MIG, and stick welding  
 - 🧠 Volunteering on 988 crisis lines
