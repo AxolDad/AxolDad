@@ -64,7 +64,7 @@ Peer-to-peer de-escalation tools based on the **Taft Method** — 25 years of EM
 Exploring fast/slow model architectures for clinical intelligence systems.
 
 #### 🎮 **Side Projects**
-- ESP32 hardware game development
+- ESP32 hardware wearables development
 - IoT monitoring platforms
 - Modern adaptation of Ann Radcliffe's *"The Mysteries of Udolpho"*
 
@@ -91,12 +91,6 @@ Sometimes all in the same day.
 
 ---
 
-### 📊 GitHub Stats  
-
-| ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=AxolDad&show_icons=true&theme=tokyonight) | ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=AxolDad&layout=compact&theme=tokyonight) |
-|:--:|:--:|
-
----
 
 ### 💬 Let's Connect  
 Building at the intersection of healthcare, crisis response, space communications, and technology.  
