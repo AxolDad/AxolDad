@@ -8,7 +8,7 @@
 
 ### 🧠 About Me  
 - 🏥 **CEO & Founder** of [Code Pause Inc.](https://codepause.com) — building **OutsideINsights**, empowering **63 million unpaid home health caregivers** with tools to validate their observations
-- 🛰️ Building **space communications systems** with **Pale Blue Systems** using QUIC, HTTP/3, and DWDM optical multiplexing
+- 🛰️ Building **space communications systems** with **Pale Blue Systems** using QUIC, HTTP/3, and advanced multiplexing techniques
 - 🖥️ **Full-stack developer** specializing in **modern React, Bun, Hono, and PostgreSQL**
 - 🔒 Expert in **HIPAA-compliant, secure system design** and isolated infrastructure  
 - 🚑 **25-year EMT & Crisis Responder** — currently volunteering with **988 crisis lines**
@@ -52,7 +52,8 @@ Empowering **63 million unpaid home health caregivers** with clinical intelligen
 #### 🛰️ **Pale Blue Systems** (Space Communications)
 Building next-generation communications infrastructure for space applications:
 - **QUIC & HTTP/3 protocols** for low-latency, reliable space-to-ground communications
-- **DWDM (Dense Wavelength Division Multiplexing)** optical systems using multiple wavelengths for high-bandwidth data transmission
+- **Spatial multiplexing & spectral tensor encoding** for high-bandwidth optical transmission
+- **DWDM optical systems** and **CCSDS packetization** for efficient data delivery
 - **Riccati algebra** for advanced signal processing and control systems
 - Developing resilient network architectures for extreme environments
 
@@ -73,7 +74,7 @@ Exploring fast/slow model architectures for clinical intelligence systems.
 - 💼 **Fundraising** for OutsideINsights — targeting VCs with warm intros
 - 📊 Building **market intelligence** on Medicare Advantage payers (UnitedHealth, Humana, CVS Health)
 - 🎯 Positioning healthcare's **$600B unpaid caregiver workforce** as the solution to Medicare's monitoring crisis
-- 🛰️ Developing **space communications technology** with Pale Blue Systems — QUIC/HTTP/3 protocols and DWDM optical systems
+- 🛰️ Developing **space communications technology** with Pale Blue Systems — advanced multiplexing and optical transmission systems
 - 🔧 Refining technical demos and investor-grade research
 
 ---
