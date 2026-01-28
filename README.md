@@ -100,7 +100,7 @@ Always open to collaboration, investor conversations, or good ideas.
 
 ---
 
-⭐ _"Build with purpose. Empower the invisible workforce. Stay curious."_
+⭐ _"Build with purpose. Stay curious."_
 
 <!---
 AxolDad/AxolDad is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
