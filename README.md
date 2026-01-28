@@ -71,7 +71,7 @@ Exploring fast/slow model architectures for clinical intelligence systems.
 ---
 
 ### 🌱 What I'm Up To  
-- 💼 **Fundraising** for OutsideINsights — targeting VCs with warm intros
+- 💼 **Fundraising** for OutsideINsights 
 - 📊 Building **market intelligence** on Medicare Advantage payers (UnitedHealth, Humana, CVS Health)
 - 🎯 Positioning healthcare's **$600B unpaid caregiver workforce** as the solution to Medicare's monitoring crisis
 - 🛰️ Developing **space communications technology** with Pale Blue Systems — advanced multiplexing and optical transmission systems
