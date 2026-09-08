@@ -18,11 +18,11 @@ Building privacy-first infrastructure for clinical care teams, live media, and c
 
 ## About
 
-I build systems where the operator never has to be trusted with the data. Twenty-five years on ambulances and crisis lines taught me what happens when systems fail the people inside them, and that is the standard I design against.
+I build systems where the operator never has to be trusted with the data. Twenty-five years as an EMT and crisis responder taught me what happens when systems fail the people inside them, and that is the standard I design against.
 
 - **Founder and CEO of [Code Pause Inc.](https://codepause.com)**, building **[OutsideINsights](https://outsideinsights.health)** for clinical care teams and **[Voxi.Live](https://voxi.live)** for live broadcast on the open web.
 - **Engineer across the stack, by necessity.** Rust where the trust boundaries live, TypeScript where the people do, and HIPAA-grade architecture underneath both.
-- **Contributor to open space communication standards** through **[Pale Blue Systems](https://github.com/Pale-Blue-Systems)**.
+- **Building open communication standards for delay-tolerant space systems** with the **[Pale Blue Systems Foundation](https://github.com/Pale-Blue-Systems)**.
 - **EMT and crisis responder for 25 years**, currently volunteering on 988 crisis lines, with a background in psychology and behavioral health.
 - Off the clock: rare books, commemorative coins, aquascaping, welding, and a modern adaptation of *The Mysteries of Udolpho*.
 
@@ -40,11 +40,11 @@ I build systems where the operator never has to be trusted with the data. Twenty
 
 ## Open Work
 
-- **[Pale Blue Systems](https://github.com/Pale-Blue-Systems)**: open, interoperable communication standards for delay-tolerant space systems, released under Apache 2.0.
-  - [PBS-PROTOCOL-OPEN](https://github.com/Pale-Blue-Systems/PBS-PROTOCOL-OPEN): the core specification for envelopes, addressing, priority, security, and routing across disrupted networks
-  - [PBS_LINK](https://github.com/Pale-Blue-Systems/PBS_LINK): reference SDK for packaging telemetry and alerts on lunar and deep-space devices
+- **[Pale Blue Systems Foundation](https://github.com/Pale-Blue-Systems)**: open, interoperable communication standards for delay-tolerant space systems.
+  - [PBS-PROTOCOL-OPEN](https://github.com/Pale-Blue-Systems/PBS-PROTOCOL-OPEN): the core specification for envelopes, addressing, priority, security, and routing across disrupted networks (Apache 2.0)
+  - [PBS_LINK](https://github.com/Pale-Blue-Systems/PBS_LINK): Python reference SDK for packaging telemetry and alerts on lunar and deep-space devices (Apache 2.0)
   - [PBS-EDGE-ADAPTER-MV](https://github.com/Pale-Blue-Systems/PBS-EDGE-ADAPTER-MV): deterministic mapping of PBS envelopes into Bundle Protocol v7 (RFC 9171)
-  - [PBS-APPLICATION-LAYER-RISK-MANAGMENT](https://github.com/Pale-Blue-Systems/PBS-APPLICATION-LAYER-RISK-MANAGMENT): data and power budget governors for metered and battery-constrained links
+  - [PBS Application-Layer Risk Management](https://github.com/Pale-Blue-Systems/PBS-APPLICATION-LAYER-RISK-MANAGMENT): data and power budget governors for metered and battery-constrained links (Apache 2.0)
 - **[Chess engine](https://ioio.dev)**: written in Rust, compiled to WebAssembly, and playable in the browser with all computation client-side.
 - More projects at **[ioio.dev](https://ioio.dev)**. More open source on the way.
 
@@ -58,6 +58,7 @@ I build systems where the operator never has to be trusted with the data. Twenty
 - Clinical intelligence for care teams: connected-device data and home context, delivered into the chart
 - EHR-native with Epic, Oracle Health, and athenahealth
 - FDA-cleared monitoring devices
+- Clinical evidence published in the Journal of General Internal Medicine
 - Built for Medicare Advantage plans and payers
 
 ### Encrypted-First Analytical Infrastructure · Rust
@@ -72,11 +73,11 @@ I build systems where the operator never has to be trusted with the data. Twenty
 *Go live as you. Or anyone. Anywhere.*
 
 - Avatar platform for the open web, in alpha
-- Browser-native production studio with multi-destination delivery
-- Media over QUIC for low-latency streaming
-- Code Pause's first commercial product
+- Built on Media over QUIC: WHIP in, MoQ out, LL-HLS fallback from the same segments
+- Rust end to end, including the WebAssembly browser player
+- Browser-native studio: the tab encodes and publishes directly, and the server never sees an unencoded pixel
 
-### [Pale Blue Systems](https://github.com/Pale-Blue-Systems) · Space Communications
+### [Pale Blue Systems Foundation](https://github.com/Pale-Blue-Systems) · Space Communications
 *Interoperability before the infrastructure is fixed.*
 
 - Open standards for delay-tolerant communication across spacecraft, rovers, habitats, and ground systems
@@ -131,7 +132,7 @@ Open to conversations with investors, collaborators, and teams working in confid
 
 - OutsideINsights: [outsideinsights.health](https://outsideinsights.health)
 - Voxi.Live: [voxi.live](https://voxi.live)
-- Pale Blue Systems: [github.com/Pale-Blue-Systems](https://github.com/Pale-Blue-Systems)
+- Pale Blue Systems Foundation: [github.com/Pale-Blue-Systems](https://github.com/Pale-Blue-Systems)
 - Company: [codepause.com](https://codepause.com)
 - Portfolio: [ioio.dev](https://ioio.dev)
 
