@@ -1,108 +1,117 @@
-# 👋 Hi, I'm **@AxolDad**
+<div align="center">
 
-> CEO & Founder building healthcare tech that empowers the invisible workforce.  
-> Part developer, part EMT, part human in progress.  
-> Personal dev portfolio: [ioio.dev](https://ioio.dev)
+# AxolDad
 
----
+**CEO & Founder, Code Pause Inc.** · Full-stack engineer · 25-year EMT and crisis responder
 
-### 🧠 About Me  
-- 🏥 **CEO & Founder** of [Code Pause Inc.](https://codepause.com) — building **OutsideINsights**, empowering **63 million unpaid home health caregivers** with tools to validate their observations
-- 🛰️ Building **space communications systems** with **Pale Blue Systems** using QUIC, HTTP/3, and advanced multiplexing techniques
-- 🖥️ **Full-stack developer** specializing in **modern React, Bun, Hono, and PostgreSQL**
-- 🔒 Expert in **HIPAA-compliant, secure system design** and isolated infrastructure  
-- 🚑 **25-year EMT & Crisis Responder** — currently volunteering with **988 crisis lines**
-- 🧠 Background in **psychology and behavioral health** — building tech that bridges clinical care and human compassion
-- 💡 Giving America's largest unpaid workforce the clinical intelligence tools they deserve
+Building healthcare technology for the 63 million unpaid caregivers who form America's largest invisible workforce.
+
+[![Portfolio](https://img.shields.io/badge/Portfolio-ioio.dev-0A66C2?style=flat-square)](https://ioio.dev)
+[![Code Pause](https://img.shields.io/badge/Company-Code%20Pause%20Inc.-1F2937?style=flat-square)](https://codepause.com)
+[![GitHub](https://img.shields.io/badge/GitHub-AxolDad-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/AxolDad)
+
+</div>
 
 ---
 
-### 💻 Tech Stack  
+## About
 
-#### 🧩 Core Stack  
-![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
-![React](https://img.shields.io/badge/-React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
-![Bun](https://img.shields.io/badge/-Bun-000000?style=for-the-badge&logo=bun&logoColor=white)
-![Node.js](https://img.shields.io/badge/-Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
-![Hono](https://img.shields.io/badge/-Hono-E36002?style=for-the-badge)
-![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
-![Drizzle ORM](https://img.shields.io/badge/-Drizzle-C5F74F?style=for-the-badge&logo=drizzle&logoColor=black)
+I work at the intersection of clinical care, crisis response, and software engineering.
 
-#### 🛠️ Also Working With  
-![Python](https://img.shields.io/badge/-Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![C++](https://img.shields.io/badge/-C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
-![Rust](https://img.shields.io/badge/-Rust-000000?style=for-the-badge&logo=rust&logoColor=white)
-![Raspberry Pi](https://img.shields.io/badge/-Raspberry%20Pi-A22846?style=for-the-badge&logo=raspberrypi&logoColor=white)
-![ESP32](https://img.shields.io/badge/-ESP32-2C2C2C?style=for-the-badge)
-![Docker](https://img.shields.io/badge/-Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+- **Founder and CEO of [Code Pause Inc.](https://codepause.com)**, where I lead development of **OutsideINsights**, a clinical intelligence platform that validates the observations of unpaid home health caregivers.
+- **Full-stack engineer** specializing in modern React, Bun, Hono, and PostgreSQL, with deep experience in HIPAA-compliant architecture and isolated infrastructure.
+- **Space communications engineer** with **Pale Blue Systems**, applying QUIC, HTTP/3, and advanced multiplexing to space-to-ground links.
+- **EMT and crisis responder for 25 years**, currently volunteering on 988 crisis lines.
+- **Background in psychology and behavioral health**, which shapes how I design systems that bridge clinical rigor and human compassion.
 
 ---
 
-### ⚙️ Current Projects  
+## Current Work
 
-#### 🏥 **OutsideINsights** (Active Development)
-Empowering **63 million unpaid home health caregivers** with clinical intelligence tools:
-- **VR-12-aligned continuous monitoring** to validate caregiver observations
-- **"Better, Same, Worse" survey methodology** for tracking patient trajectory
-- Real-time patient outcome monitoring for Medicare Advantage plans
-- **TanStack ecosystem** for robust data handling and UI
-- **Rhapsody Health integration** for EMR connectivity
+### OutsideINsights · Healthcare
+Clinical intelligence tools for unpaid home health caregivers, built for Medicare Advantage plans.
 
-#### 🛰️ **Pale Blue Systems** (Space Communications)
-Building next-generation communications infrastructure for space applications:
-- **QUIC & HTTP/3 protocols** for low-latency, reliable space-to-ground communications
-- **Spatial multiplexing & spectral tensor encoding** for high-bandwidth optical transmission
-- **DWDM optical systems** and **CCSDS packetization** for efficient data delivery
-- **Riccati algebra** for advanced signal processing and control systems
-- Developing resilient network architectures for extreme environments
+- VR-12-aligned continuous monitoring that validates caregiver observations
+- "Better, Same, Worse" survey methodology for tracking patient trajectory
+- Real-time patient outcome monitoring for Medicare Advantage payers
+- TanStack ecosystem for data handling and UI
+- Rhapsody Health integration for EMR connectivity
 
-#### 🚑 **Crisis Intervention Solutions**
-Peer-to-peer de-escalation tools based on the **Taft Method** — 25 years of EMT and crisis counselor experience distilled into training and technology.
+### Pale Blue Systems · Space Communications
+Next-generation communications infrastructure for space applications.
 
-#### 🤖 **AI Model Fine-Tuning**
-Exploring fast/slow model architectures for clinical intelligence systems.
+- QUIC and HTTP/3 transport for low-latency, resilient space-to-ground communication
+- Spatial multiplexing and spectral tensor encoding for high-bandwidth optical transmission
+- DWDM optical systems and CCSDS packetization for efficient data delivery
+- Riccati-based signal processing and control systems
+- Network architectures designed for extreme environments
 
-#### 🎮 **Side Projects**
-- ESP32 hardware wearables development
-- IoT monitoring platforms
-- Modern adaptation of Ann Radcliffe's *"The Mysteries of Udolpho"*
+### Crisis Intervention
+Peer-to-peer de-escalation tools grounded in the Taft Method, distilling 25 years of EMT and crisis counseling experience into training and technology.
+
+### Applied AI
+Fine-tuning and evaluating fast/slow model architectures for clinical intelligence systems.
 
 ---
 
-### 🌱 What I'm Up To  
-- 💼 **Fundraising** for OutsideINsights 
-- 📊 Building **market intelligence** on Medicare Advantage payers (UnitedHealth, Humana, CVS Health)
-- 🎯 Positioning healthcare's **$600B unpaid caregiver workforce** as the solution to Medicare's monitoring crisis
-- 🛰️ Developing **space communications technology** with Pale Blue Systems — advanced multiplexing and optical transmission systems
-- 🔧 Refining technical demos and investor-grade research
+## Technical Expertise
+
+**Core stack**
+
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
+![Bun](https://img.shields.io/badge/Bun-000000?style=flat-square&logo=bun&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
+![Hono](https://img.shields.io/badge/Hono-E36002?style=flat-square&logo=hono&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+![Drizzle ORM](https://img.shields.io/badge/Drizzle%20ORM-C5F74F?style=flat-square&logo=drizzle&logoColor=black)
+
+**Also working with**
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white)
+![Rust](https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+
+**Domains:** HIPAA-compliant system design · secure and isolated infrastructure · EMR integration · transport protocols (QUIC, HTTP/3) · optical transmission and signal processing
 
 ---
 
-### 🧰 When I'm Not Coding  
-You'll find me:
-- 📚 Collecting rare books (first editions, classics, children's, signed)
-- 🪙 Coin collecting with a focus on commemoratives
-- 🌿 Aquascaping freshwater tanks  
-- 🔥 Learning TIG, MIG, and stick welding  
-- 🧠 Volunteering on 988 crisis lines
+## Currently
 
-Sometimes all in the same day.
+- Raising a funding round for OutsideINsights
+- Building market intelligence on Medicare Advantage payers, including UnitedHealth, Humana, and CVS Health
+- Positioning the $600B unpaid caregiver workforce as the answer to Medicare's patient-monitoring gap
+- Advancing multiplexing and optical transmission work with Pale Blue Systems
+- Refining technical demos and investor-grade research
 
 ---
 
+## Beyond Engineering
 
-### 💬 Let's Connect  
-Building at the intersection of healthcare, crisis response, space communications, and technology.  
-Always open to collaboration, investor conversations, or good ideas.
-
-📫 **Reach me:** GitHub • [ioio.dev](https://ioio.dev)
+- A modern adaptation of Ann Radcliffe's *The Mysteries of Udolpho*
+- Rare book collecting: first editions, classics, children's literature, and signed copies
+- Numismatics, with a focus on commemorative coinage
+- Freshwater aquascaping
+- TIG, MIG, and stick welding
 
 ---
 
-⭐ _"Build with purpose. Stay curious."_
+## Contact
+
+I welcome conversations with collaborators, investors, and anyone working on healthcare, crisis response, or space communications.
+
+- Portfolio: [ioio.dev](https://ioio.dev)
+- Company: [codepause.com](https://codepause.com)
+- GitHub: [@AxolDad](https://github.com/AxolDad)
+
+<div align="center">
+
+*Build with purpose. Stay curious.*
+
+</div>
 
 <!---
-AxolDad/AxolDad is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
+AxolDad/AxolDad is a special repository because its README.md (this file) appears on your GitHub profile.
 --->
