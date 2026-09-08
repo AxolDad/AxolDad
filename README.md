@@ -7,7 +7,7 @@
 Building privacy-first infrastructure for clinical care teams, live media, and confidential analytics.
 
 <a href="https://codepause.com"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/codepause-dark.svg"><img src="assets/codepause-light.svg" height="36" alt="Code Pause"></picture></a>&nbsp;&nbsp;&nbsp;
-<a href="https://outsideinsights.health"><img src="assets/outsideinsights.svg" height="36" alt="OutsideINsights"></a>&nbsp;&nbsp;&nbsp;
+<a href="https://outsideinsights.health"><img src="assets/outsideinsights.png" height="36" alt="OutsideINsights"></a>&nbsp;&nbsp;&nbsp;
 <a href="https://voxi.live"><img src="assets/voxi.svg" height="36" alt="Voxi.Live"></a>&nbsp;&nbsp;&nbsp;
 <a href="https://adminabuse.app"><img src="assets/adminabuse.png" height="36" alt="AdminAbuse.app"></a>
 
@@ -58,7 +58,7 @@ I build systems where the operator never has to be trusted with the data. Twenty
 
 ## Current Work
 
-### <img src="assets/outsideinsights.svg" height="24" alt=""> [OutsideINsights](https://outsideinsights.health) · Clinical Intelligence
+### <img src="assets/outsideinsights.png" height="24" alt=""> [OutsideINsights](https://outsideinsights.health) · Clinical Intelligence
 *What happens outside the visit belongs inside the record.*
 
 - Clinical intelligence for care teams: connected-device data and home context, delivered into the chart
