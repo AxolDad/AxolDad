@@ -40,7 +40,7 @@ I build systems where the operator never has to be trusted with the data. Twenty
 
 ## Open Work
 
-- **[Pale Blue Systems Foundation](https://github.com/Pale-Blue-Systems)**: open, interoperable communication standards for delay-tolerant space systems.
+- **[Pale Blue Systems Foundation](https://github.com/Pale-Blue-Systems)**: open, interoperable communication standards for delay-tolerant space systems, published under my name, Jeremy L.D. Ryan.
   - [PBS-PROTOCOL-OPEN](https://github.com/Pale-Blue-Systems/PBS-PROTOCOL-OPEN): the core specification for envelopes, addressing, priority, security, and routing across disrupted networks (Apache 2.0)
   - [PBS_LINK](https://github.com/Pale-Blue-Systems/PBS_LINK): Python reference SDK for packaging telemetry and alerts on lunar and deep-space devices (Apache 2.0)
   - [PBS-EDGE-ADAPTER-MV](https://github.com/Pale-Blue-Systems/PBS-EDGE-ADAPTER-MV): deterministic mapping of PBS envelopes into Bundle Protocol v7 (RFC 9171)
@@ -78,7 +78,7 @@ I build systems where the operator never has to be trusted with the data. Twenty
 - Browser-native studio: the tab encodes and publishes directly, and the server never sees an unencoded pixel
 
 ### [Pale Blue Systems Foundation](https://github.com/Pale-Blue-Systems) · Space Communications
-*Interoperability before the infrastructure is fixed.*
+*Interoperability before the infrastructure is fixed.* Published as Jeremy L.D. Ryan.
 
 - Open standards for delay-tolerant communication across spacecraft, rovers, habitats, and ground systems
 - Store-and-forward by design, aligned with DTN, BPv7, and CCSDS
