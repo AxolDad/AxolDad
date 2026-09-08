@@ -10,7 +10,7 @@ Building privacy-first infrastructure for clinical care teams, live media, and c
 <a href="https://outsideinsights.health"><img src="assets/outsideinsights.png" height="36" alt="OutsideINsights"></a>&nbsp;&nbsp;&nbsp;
 <a href="https://voxi.live"><img src="assets/voxi.svg" height="36" alt="Voxi.Live"></a>&nbsp;&nbsp;&nbsp;
 <a href="https://adminabuse.app"><img src="assets/adminabuse.png" height="36" alt="AdminAbuse.app"></a>&nbsp;&nbsp;&nbsp;
-<a href="https://weathervibe.app"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/weathervibe-dark.png"><img src="assets/weathervibe-light.png" height="36" alt="WeatherVibe.app"></picture></a>
+<a href="https://weathervibe.app"><img src="assets/weathervibe.png" height="36" alt="WeatherVibe.app"></a>
 
 [![OutsideINsights](https://img.shields.io/badge/Product-OutsideINsights-0E7C86?style=flat-square)](https://outsideinsights.health)
 [![Voxi.Live](https://img.shields.io/badge/Product-Voxi.Live-7C3AED?style=flat-square)](https://voxi.live)
@@ -92,7 +92,7 @@ I build systems where the operator never has to be trusted with the data. Twenty
 - No signup: developers describe the session in their event listing, streamers tag their title, and both are picked up within minutes
 - Every listing shows how confident the match is and the exact words it came from
 
-### <picture><source media="(prefers-color-scheme: dark)" srcset="assets/weathervibe-dark.png"><img src="assets/weathervibe-light.png" height="24" alt=""></picture> [WeatherVibe.app](https://weathervibe.app) · Weather Intelligence
+### <img src="assets/weathervibe.png" height="24" alt=""> [WeatherVibe.app](https://weathervibe.app) · Weather Intelligence
 *Live US weather translated into plain-language lifestyle insights.*
 
 - Run Report, Skin Health, Frizz Forecast, Migraine Meter, Pollen Count, and air-quality risk, each backed by published atmospheric science
