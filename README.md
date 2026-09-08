@@ -72,7 +72,7 @@ I build systems where the operator never has to be trusted with the data. Twenty
 ### [Voxi.Live](https://voxi.live) · Live Broadcast
 *Go live as you. Or anyone. Anywhere.*
 
-- Built on Media over QUIC (MoQ), tracking the IETF transport spec at draft-16, deployed on Cloudflare
+- Built on Media over QUIC (MoQ), tracking the IETF transport spec at draft-16, on the Cloudflare MoQ relay system
 - WHIP in, MoQ out, LL-HLS fallback from the same segments; chat, presence, and reactions ride the same QUIC connection as video
 - Rust end to end, including the WebAssembly browser player
 - Browser-native studio: the tab encodes and publishes directly, and the server never sees an unencoded pixel
