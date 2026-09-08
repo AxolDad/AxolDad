@@ -8,9 +8,9 @@ Building privacy-first infrastructure for clinical care teams, live media, and c
 
 [![OutsideINsights](https://img.shields.io/badge/Product-OutsideINsights-0E7C86?style=flat-square)](https://outsideinsights.health)
 [![Voxi.Live](https://img.shields.io/badge/Product-Voxi.Live-7C3AED?style=flat-square)](https://voxi.live)
+[![Pale Blue Systems](https://img.shields.io/badge/Open%20Standards-Pale%20Blue%20Systems-1E3A8A?style=flat-square)](https://github.com/Pale-Blue-Systems)
 [![Code Pause](https://img.shields.io/badge/Company-Code%20Pause%20Inc.-1F2937?style=flat-square)](https://codepause.com)
 [![Portfolio](https://img.shields.io/badge/Portfolio-ioio.dev-0A66C2?style=flat-square)](https://ioio.dev)
-[![GitHub](https://img.shields.io/badge/GitHub-AxolDad-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/AxolDad)
 
 </div>
 
@@ -18,14 +18,35 @@ Building privacy-first infrastructure for clinical care teams, live media, and c
 
 ## About
 
-I build systems where the operator never has to be trusted with the data, and I bring 25 years of frontline clinical experience to how they are designed.
+I build systems where the operator never has to be trusted with the data. Twenty-five years as an EMT and crisis responder taught me what happens when systems fail the people inside them, and that is the standard I design against.
 
 - **Founder and CEO of [Code Pause Inc.](https://codepause.com)**, building **[OutsideINsights](https://outsideinsights.health)** for clinical care teams and **[Voxi.Live](https://voxi.live)** for live broadcast on the open web.
-- **Rust systems engineer** focused on confidential computing and encrypted analytics.
-- **Full-stack engineer** in TypeScript, React, Bun, and PostgreSQL, with deep experience in HIPAA-compliant architecture.
-- **Space communications engineer** with **Pale Blue Systems**, working on low-latency space-to-ground links.
-- **EMT and crisis responder for 25 years**, currently volunteering on 988 crisis lines.
-- **Background in psychology and behavioral health**.
+- **Engineer across the stack, by necessity.** Rust where the trust boundaries live, TypeScript where the people do, Media over QUIC where the latency does, and HIPAA-grade architecture underneath all of it.
+- **Building open communication standards for delay-tolerant space systems** with the **[Pale Blue Systems Foundation](https://github.com/Pale-Blue-Systems)**.
+- **EMT and crisis responder for 25 years**, currently volunteering on 988 crisis lines, with a background in psychology and behavioral health.
+- Off the clock: rare books, commemorative coins, aquascaping, welding, and a modern adaptation of *The Mysteries of Udolpho*.
+
+---
+
+## Positions
+
+**Vibe coding does not belong in shipped systems.** Agentic engineering with strict roadmaps, guidelines, validation, and a human in the loop is what turns a project that would get built two years from now into one being tested in two weeks.
+
+**Leaks of sensitive health data make me livid.** We know what to do and how to do it to protect this data. We cannot stop every leak when the weakest link is a human with a password, but we can sure as hell make it hard and keep it contained.
+
+**If the operator can read the data, assume one day someone else will.** Design so that the operator never has to be trusted: encrypt at ingest, compute inside an attested boundary, and let only answers out.
+
+---
+
+## Open Work
+
+- **[Pale Blue Systems Foundation](https://github.com/Pale-Blue-Systems)**: open, interoperable communication standards for delay-tolerant space systems, published under my name, Jeremy L. D. Ryan.
+  - [PBS-PROTOCOL-OPEN](https://github.com/Pale-Blue-Systems/PBS-PROTOCOL-OPEN): the core specification for envelopes, addressing, priority, security, and routing across disrupted networks (Apache 2.0)
+  - [PBS_LINK](https://github.com/Pale-Blue-Systems/PBS_LINK): Python reference SDK for packaging telemetry and alerts on lunar and deep-space devices (Apache 2.0)
+  - [PBS-EDGE-ADAPTER-MV](https://github.com/Pale-Blue-Systems/PBS-EDGE-ADAPTER-MV): deterministic mapping of PBS envelopes into Bundle Protocol v7 (RFC 9171)
+  - [PBS Application-Layer Risk Management](https://github.com/Pale-Blue-Systems/PBS-APPLICATION-LAYER-RISK-MANAGMENT): data and power budget governors for metered and battery-constrained links (Apache 2.0)
+- **[Chess engine](https://ioio.dev)**: written in Rust, compiled to WebAssembly, and playable in the browser with all computation client-side.
+- More projects at **[ioio.dev](https://ioio.dev)**. More open source on the way.
 
 ---
 
@@ -37,6 +58,7 @@ I build systems where the operator never has to be trusted with the data, and I 
 - Clinical intelligence for care teams: connected-device data and home context, delivered into the chart
 - EHR-native with Epic, Oracle Health, and athenahealth
 - FDA-cleared monitoring devices
+- Clinical evidence published in the Journal of General Internal Medicine
 - Built for Medicare Advantage plans and payers
 
 ### Encrypted-First Analytical Infrastructure · Rust
@@ -50,15 +72,18 @@ I build systems where the operator never has to be trusted with the data, and I 
 ### [Voxi.Live](https://voxi.live) · Live Broadcast
 *Go live as you. Or anyone. Anywhere.*
 
+- Built on Media over QUIC (MoQ), tracking the IETF transport spec at draft-16, on the Cloudflare MoQ relay system
+- WHIP in, MoQ out, LL-HLS fallback from the same segments; chat, presence, and reactions ride the same QUIC connection as video
+- Rust end to end, including the WebAssembly browser player
+- Browser-native studio: the tab encodes and publishes directly, and the server never sees an unencoded pixel
 - Avatar platform for the open web, in alpha
-- Browser-native production studio with multi-destination delivery
-- Media over QUIC for low-latency streaming
-- Code Pause's first commercial product
 
-### Pale Blue Systems · Space Communications
+### [Pale Blue Systems Foundation](https://github.com/Pale-Blue-Systems) · Space Communications
+*Interoperability before the infrastructure is fixed.* Published as Jeremy L. D. Ryan.
 
-- Low-latency, resilient space-to-ground communication over QUIC and HTTP/3
-- Advanced multiplexing and optical transmission for high-bandwidth links
+- Open standards for delay-tolerant communication across spacecraft, rovers, habitats, and ground systems
+- Store-and-forward by design, aligned with DTN, BPv7, and CCSDS
+- Advanced multiplexing and optical transmission research for high-bandwidth links
 
 ### Crisis Intervention
 
@@ -75,6 +100,7 @@ I build systems where the operator never has to be trusted with the data, and I 
 **Systems**
 
 ![Rust](https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white)
+![WebAssembly](https://img.shields.io/badge/WebAssembly-654FF0?style=flat-square&logo=webassembly&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
@@ -88,7 +114,7 @@ I build systems where the operator never has to be trusted with the data, and I 
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
 ![Hono](https://img.shields.io/badge/Hono-E36002?style=flat-square&logo=hono&logoColor=white)
 
-**Domains:** confidential computing · applied cryptography · HIPAA-compliant systems · EHR integration · low-latency media and transport protocols · optical communications
+**Domains:** confidential computing · applied cryptography · HIPAA-compliant systems · EHR integration · Media over QUIC and low-latency media transport · delay-tolerant networking · optical communications
 
 ---
 
@@ -101,25 +127,15 @@ I build systems where the operator never has to be trusted with the data, and I 
 
 ---
 
-## Beyond Engineering
-
-- A modern adaptation of Ann Radcliffe's *The Mysteries of Udolpho*
-- Rare book collecting: first editions, classics, children's literature, and signed copies
-- Numismatics, with a focus on commemorative coinage
-- Freshwater aquascaping
-- TIG, MIG, and stick welding
-
----
-
 ## Contact
 
 Open to conversations with investors, collaborators, and teams working in confidential computing, healthcare, live media, or space communications.
 
 - OutsideINsights: [outsideinsights.health](https://outsideinsights.health)
 - Voxi.Live: [voxi.live](https://voxi.live)
+- Pale Blue Systems Foundation: [github.com/Pale-Blue-Systems](https://github.com/Pale-Blue-Systems)
 - Company: [codepause.com](https://codepause.com)
 - Portfolio: [ioio.dev](https://ioio.dev)
-- GitHub: [@AxolDad](https://github.com/AxolDad)
 
 <div align="center">
 
