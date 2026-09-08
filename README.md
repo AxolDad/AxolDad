@@ -21,7 +21,7 @@ Building privacy-first infrastructure for clinical care teams, live media, and c
 I build systems where the operator never has to be trusted with the data. Twenty-five years as an EMT and crisis responder taught me what happens when systems fail the people inside them, and that is the standard I design against.
 
 - **Founder and CEO of [Code Pause Inc.](https://codepause.com)**, building **[OutsideINsights](https://outsideinsights.health)** for clinical care teams and **[Voxi.Live](https://voxi.live)** for live broadcast on the open web.
-- **Engineer across the stack, by necessity.** Rust where the trust boundaries live, TypeScript where the people do, and HIPAA-grade architecture underneath both.
+- **Engineer across the stack, by necessity.** Rust where the trust boundaries live, TypeScript where the people do, Media over QUIC where the latency does, and HIPAA-grade architecture underneath all of it.
 - **Building open communication standards for delay-tolerant space systems** with the **[Pale Blue Systems Foundation](https://github.com/Pale-Blue-Systems)**.
 - **EMT and crisis responder for 25 years**, currently volunteering on 988 crisis lines, with a background in psychology and behavioral health.
 - Off the clock: rare books, commemorative coins, aquascaping, welding, and a modern adaptation of *The Mysteries of Udolpho*.
@@ -72,10 +72,11 @@ I build systems where the operator never has to be trusted with the data. Twenty
 ### [Voxi.Live](https://voxi.live) · Live Broadcast
 *Go live as you. Or anyone. Anywhere.*
 
-- Avatar platform for the open web, in alpha
-- Built on Media over QUIC: WHIP in, MoQ out, LL-HLS fallback from the same segments
+- Built on Media over QUIC (MoQ), tracking the IETF transport spec at draft-16, deployed on Cloudflare
+- WHIP in, MoQ out, LL-HLS fallback from the same segments; chat, presence, and reactions ride the same QUIC connection as video
 - Rust end to end, including the WebAssembly browser player
 - Browser-native studio: the tab encodes and publishes directly, and the server never sees an unencoded pixel
+- Avatar platform for the open web, in alpha
 
 ### [Pale Blue Systems Foundation](https://github.com/Pale-Blue-Systems) · Space Communications
 *Interoperability before the infrastructure is fixed.* Published as Jeremy L. D. Ryan.
@@ -113,7 +114,7 @@ I build systems where the operator never has to be trusted with the data. Twenty
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
 ![Hono](https://img.shields.io/badge/Hono-E36002?style=flat-square&logo=hono&logoColor=white)
 
-**Domains:** confidential computing · applied cryptography · HIPAA-compliant systems · EHR integration · low-latency media and transport protocols · delay-tolerant networking · optical communications
+**Domains:** confidential computing · applied cryptography · HIPAA-compliant systems · EHR integration · Media over QUIC and low-latency media transport · delay-tolerant networking · optical communications
 
 ---
 
