@@ -6,6 +6,11 @@
 
 Building privacy-first infrastructure for clinical care teams, live media, and confidential analytics.
 
+<a href="https://codepause.com"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/codepause-dark.svg"><img src="assets/codepause-light.svg" height="36" alt="Code Pause"></picture></a>&nbsp;&nbsp;&nbsp;
+<a href="https://outsideinsights.health"><img src="assets/outsideinsights.svg" height="36" alt="OutsideINsights"></a>&nbsp;&nbsp;&nbsp;
+<a href="https://voxi.live"><img src="assets/voxi.svg" height="36" alt="Voxi.Live"></a>&nbsp;&nbsp;&nbsp;
+<a href="https://adminabuse.app"><img src="assets/adminabuse.png" height="36" alt="AdminAbuse.app"></a>
+
 [![OutsideINsights](https://img.shields.io/badge/Product-OutsideINsights-0E7C86?style=flat-square)](https://outsideinsights.health)
 [![Voxi.Live](https://img.shields.io/badge/Product-Voxi.Live-7C3AED?style=flat-square)](https://voxi.live)
 [![Pale Blue Systems](https://img.shields.io/badge/Open%20Standards-Pale%20Blue%20Systems-1E3A8A?style=flat-square)](https://github.com/Pale-Blue-Systems)
@@ -53,7 +58,7 @@ I build systems where the operator never has to be trusted with the data. Twenty
 
 ## Current Work
 
-### [OutsideINsights](https://outsideinsights.health) · Clinical Intelligence
+### <img src="assets/outsideinsights.svg" height="24" alt=""> [OutsideINsights](https://outsideinsights.health) · Clinical Intelligence
 *What happens outside the visit belongs inside the record.*
 
 - Clinical intelligence for care teams: connected-device data and home context, delivered into the chart
@@ -70,7 +75,7 @@ I build systems where the operator never has to be trusted with the data. Twenty
 - Aggregate-only query engine that structurally blocks record-level access
 - Metered, governed research access for data owners and third-party researchers
 
-### [Voxi.Live](https://voxi.live) · Live Broadcast
+### <img src="assets/voxi.svg" height="24" alt=""> [Voxi.Live](https://voxi.live) · Live Broadcast
 *Go live as you. Or anyone. Anywhere.*
 
 - Built on Media over QUIC (MoQ), tracking the IETF transport spec at draft-16, on the Cloudflare MoQ relay system
@@ -78,6 +83,13 @@ I build systems where the operator never has to be trusted with the data. Twenty
 - Rust end to end, including the WebAssembly browser player
 - Browser-native studio: the tab encodes and publishes directly, and the server never sees an unencoded pixel
 - Avatar platform for the open web, in alpha
+
+### <img src="assets/adminabuse.png" height="24" alt=""> [AdminAbuse.app](https://adminabuse.app) · Live Events
+*Live and scheduled admin abuse across the biggest Roblox games.*
+
+- Live and scheduled admin sessions across the most played Roblox games, refreshed every minute from Roblox's public events API
+- No signup: developers describe the session in their event listing, streamers tag their title, and both are picked up within minutes
+- Every listing shows how confident the match is and the exact words it came from
 
 ### [Pale Blue Systems Foundation](https://github.com/Pale-Blue-Systems) · Space Communications
 *Interoperability before the infrastructure is fixed.* Published as Jeremy L. D. Ryan.
@@ -134,6 +146,7 @@ Open to conversations with investors, collaborators, and teams working in confid
 
 - OutsideINsights: [outsideinsights.health](https://outsideinsights.health)
 - Voxi.Live: [voxi.live](https://voxi.live)
+- AdminAbuse.app: [adminabuse.app](https://adminabuse.app)
 - Pale Blue Systems Foundation: [github.com/Pale-Blue-Systems](https://github.com/Pale-Blue-Systems)
 - Company: [codepause.com](https://codepause.com)
 - Portfolio: [ioio.dev](https://ioio.dev)

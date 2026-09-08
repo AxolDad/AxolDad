@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-label="Voxi.Live">
+  <rect width="64" height="64" fill="#070A12"/>
+  <path d="M 18.50 21.50 L 32.00 44.00 L 45.50 21.50"
+        fill="none"
+        stroke="#173BFF"
+        stroke-width="6.50"
+        stroke-linecap="round"
+        stroke-linejoin="round"/>
+</svg>
