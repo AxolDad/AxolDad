@@ -73,10 +73,8 @@ Fine-tuning and evaluating fast/slow model architectures for clinical intelligen
 ![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white)
 ![Rust](https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![Raspberry Pi](https://img.shields.io/badge/Raspberry%20Pi-A22846?style=flat-square&logo=raspberrypi&logoColor=white)
-![ESP32](https://img.shields.io/badge/ESP32-2C2C2C?style=flat-square&logo=espressif&logoColor=white)
 
-**Domains:** HIPAA-compliant system design · secure and isolated infrastructure · EMR integration · network protocols · embedded hardware and IoT
+**Domains:** HIPAA-compliant system design · secure and isolated infrastructure · EMR integration · transport protocols (QUIC, HTTP/3) · optical transmission and signal processing
 
 ---
 
@@ -92,7 +90,6 @@ Fine-tuning and evaluating fast/slow model architectures for clinical intelligen
 
 ## Beyond Engineering
 
-- ESP32 wearables and IoT monitoring platforms
 - A modern adaptation of Ann Radcliffe's *The Mysteries of Udolpho*
 - Rare book collecting: first editions, classics, children's literature, and signed copies
 - Numismatics, with a focus on commemorative coinage
