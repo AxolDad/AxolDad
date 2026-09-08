@@ -18,14 +18,14 @@ Building privacy-first infrastructure for clinical care teams, live media, and c
 
 ## About
 
-I work at the intersection of clinical care, crisis response, and systems engineering, with a focus on infrastructure where the data never has to be trusted to the operator.
+I build systems where the operator never has to be trusted with the data, and I bring 25 years of frontline clinical experience to how they are designed.
 
-- **Founder and CEO of [Code Pause Inc.](https://codepause.com)**, building **[OutsideINsights](https://outsideinsights.health)**, clinical intelligence for care teams, and **[Voxi.Live](https://voxi.live)**, an avatar-driven live broadcast platform for the open web.
-- **Rust systems engineer** building encrypted-first analytical infrastructure: confidential computing, envelope cryptography, and query engines that return answers without exposing the dataset.
-- **Full-stack engineer** in React, Bun, Hono, and PostgreSQL, with deep experience in HIPAA-compliant architecture and isolated infrastructure.
-- **Space communications engineer** with **Pale Blue Systems**, applying QUIC, HTTP/3, and advanced multiplexing to space-to-ground links.
+- **Founder and CEO of [Code Pause Inc.](https://codepause.com)**, building **[OutsideINsights](https://outsideinsights.health)** for clinical care teams and **[Voxi.Live](https://voxi.live)** for live broadcast on the open web.
+- **Rust systems engineer** focused on confidential computing and encrypted analytics.
+- **Full-stack engineer** in TypeScript, React, Bun, and PostgreSQL, with deep experience in HIPAA-compliant architecture.
+- **Space communications engineer** with **Pale Blue Systems**, working on low-latency space-to-ground links.
 - **EMT and crisis responder for 25 years**, currently volunteering on 988 crisis lines.
-- **Background in psychology and behavioral health**, which shapes how I design systems that bridge clinical rigor and human compassion.
+- **Background in psychology and behavioral health**.
 
 ---
 
@@ -34,92 +34,70 @@ I work at the intersection of clinical care, crisis response, and systems engine
 ### [OutsideINsights](https://outsideinsights.health) · Clinical Intelligence
 *What happens outside the visit belongs inside the record.*
 
-- Clinical intelligence for care teams: connected-device data plus home context, delivered into the chart
-- EHR-native integration with Epic, Oracle Health, and athenahealth, no new login required
-- FDA-cleared monitoring devices, no home internet required
-- Capture → Validate → Integrate pipeline with VR-12-aligned continuous monitoring
-- Care Circle: "Better, Same, Worse" check-ins by text or app from the patient's care circle
-- OUTsights Gateway for device and EMR connectivity, including Rhapsody Health
-- Outcome monitoring for Medicare Advantage plans and payers
+- Clinical intelligence for care teams: connected-device data and home context, delivered into the chart
+- EHR-native with Epic, Oracle Health, and athenahealth
+- FDA-cleared monitoring devices
+- Built for Medicare Advantage plans and payers
 
 ### Encrypted-First Analytical Infrastructure · Rust
 *Data goes in. Analysis comes out. The dataset doesn't.*
 
-- No-plaintext invariant: no application path returns an unrestricted dataset
-- Rust workspace of twelve crates, `unsafe_code = "deny"`
-- Client-side encryption with non-extractable browser keys
-- HPKE envelope-key hierarchy (X25519, HKDF-SHA256, AES-256-GCM) with context binding
-- Attested AMD SEV-SNP enclaves for connector pipelines, buffers zeroized after write
-- Apache DataFusion with a plan-level aggregate-only gate
-- Keyed blind indexes for equality filters over ciphertext
-- Steward-to-researcher grants: cohort suppression, monotonic query budgets, priced catalog
+- Analytics over data the operator cannot read: encrypted at ingest, at rest, and in flight
+- Confidential computing with hardware-attested enclaves
+- Aggregate-only query engine that structurally blocks record-level access
+- Metered, governed research access for data owners and third-party researchers
 
 ### [Voxi.Live](https://voxi.live) · Live Broadcast
 *Go live as you. Or anyone. Anywhere.*
 
-- Avatar platform for the open web, currently in alpha
-- Browser-native studio: camera, microphone, screen, guests, preview, backstage
-- Media over QUIC primary delivery with LL-HLS fallback
-- Ingest via browser contribution, MoQ, WHIP, and RTMPS/SRT adapters
-- Semantic avatars and multi-format output from one production
-- Multi-destination delivery, unified chat and moderation, live captions and translation
+- Avatar platform for the open web, in alpha
+- Browser-native production studio with multi-destination delivery
+- Media over QUIC for low-latency streaming
+- Code Pause's first commercial product
 
 ### Pale Blue Systems · Space Communications
 
-- QUIC and HTTP/3 transport for space-to-ground links
-- Spatial multiplexing and spectral tensor encoding for optical transmission
-- DWDM optical systems and CCSDS packetization
-- Riccati-based signal processing and control
-- Network architectures for extreme environments
+- Low-latency, resilient space-to-ground communication over QUIC and HTTP/3
+- Advanced multiplexing and optical transmission for high-bandwidth links
 
 ### Crisis Intervention
 
-- Peer-to-peer de-escalation tools grounded in the Taft Method
-- 25 years of EMT and crisis counseling experience, distilled into training and technology
+- Peer-to-peer de-escalation training and tools, grounded in 25 years of field experience
 
 ### Applied AI
 
-- Fine-tuning and evaluation of fast/slow model architectures for clinical intelligence
+- Fast/slow model architectures for clinical intelligence
 
 ---
 
 ## Technical Expertise
 
-**Systems and backend**
+**Systems**
 
 ![Rust](https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white)
-![Apache DataFusion](https://img.shields.io/badge/Apache%20DataFusion-D22128?style=flat-square&logo=apache&logoColor=white)
-![Apache Parquet](https://img.shields.io/badge/Apache%20Parquet-50ABF1?style=flat-square&logo=apache&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![Google Cloud](https://img.shields.io/badge/Google%20Cloud-4285F4?style=flat-square&logo=googlecloud&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white)
 
-**Web and application**
+**Web**
 
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
 ![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
 ![Bun](https://img.shields.io/badge/Bun-000000?style=flat-square&logo=bun&logoColor=white)
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
 ![Hono](https://img.shields.io/badge/Hono-E36002?style=flat-square&logo=hono&logoColor=white)
-![Drizzle ORM](https://img.shields.io/badge/Drizzle%20ORM-C5F74F?style=flat-square&logo=drizzle&logoColor=black)
 
-**Also working with**
-
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white)
-
-**Domains:** confidential computing (AMD SEV-SNP) · applied cryptography (HPKE, AES-GCM, blind indexing) · encrypted columnar storage · HIPAA-compliant system design · secure and isolated infrastructure · EHR and EMR integration · Media over QUIC and low-latency streaming · transport protocols (QUIC, HTTP/3) · optical transmission and signal processing
+**Domains:** confidential computing · applied cryptography · HIPAA-compliant systems · EHR integration · low-latency media and transport protocols · optical communications
 
 ---
 
 ## Currently
 
-- Building the encrypted analytics engine in Rust, from the crypto and enclave layers up through the query gate
-- Shipping the Voxi.Live alpha: browser studio, Media over QUIC delivery, and the native audience experience
+- Building the encrypted analytics platform in Rust
+- Shipping the Voxi.Live alpha
 - Raising a funding round for OutsideINsights
-- Building market intelligence on Medicare Advantage payers, including UnitedHealth, Humana, and CVS Health
-- Advancing multiplexing and optical transmission work with Pale Blue Systems
+- Developing market intelligence on Medicare Advantage payers
 
 ---
 
@@ -135,7 +113,7 @@ I work at the intersection of clinical care, crisis response, and systems engine
 
 ## Contact
 
-I welcome conversations with collaborators, investors, and anyone working on confidential computing, healthcare, live media, crisis response, or space communications.
+Open to conversations with investors, collaborators, and teams working in confidential computing, healthcare, live media, or space communications.
 
 - OutsideINsights: [outsideinsights.health](https://outsideinsights.health)
 - Voxi.Live: [voxi.live](https://voxi.live)
