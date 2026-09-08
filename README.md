@@ -4,11 +4,12 @@
 
 **CEO & Founder, Code Pause Inc.** · Rust and TypeScript systems engineer · 25-year EMT and crisis responder
 
-Building privacy-first infrastructure for healthcare, live media, and the 63 million unpaid caregivers who form America's largest invisible workforce.
+Building privacy-first infrastructure for clinical care teams, live media, and confidential analytics.
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-ioio.dev-0A66C2?style=flat-square)](https://ioio.dev)
-[![Code Pause](https://img.shields.io/badge/Company-Code%20Pause%20Inc.-1F2937?style=flat-square)](https://codepause.com)
+[![OutsideINsights](https://img.shields.io/badge/Product-OutsideINsights-0E7C86?style=flat-square)](https://outsideinsights.health)
 [![Voxi.Live](https://img.shields.io/badge/Product-Voxi.Live-7C3AED?style=flat-square)](https://voxi.live)
+[![Code Pause](https://img.shields.io/badge/Company-Code%20Pause%20Inc.-1F2937?style=flat-square)](https://codepause.com)
+[![Portfolio](https://img.shields.io/badge/Portfolio-ioio.dev-0A66C2?style=flat-square)](https://ioio.dev)
 [![GitHub](https://img.shields.io/badge/GitHub-AxolDad-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/AxolDad)
 
 </div>
@@ -19,9 +20,9 @@ Building privacy-first infrastructure for healthcare, live media, and the 63 mil
 
 I work at the intersection of clinical care, crisis response, and systems engineering, with a focus on infrastructure where the data never has to be trusted to the operator.
 
-- **Founder and CEO of [Code Pause Inc.](https://codepause.com)**, where I lead development of **OutsideINsights**, a clinical intelligence platform that validates the observations of unpaid home health caregivers, and **[Voxi.Live](https://voxi.live)**, an avatar-driven live broadcast platform for the open web.
-- **Rust systems engineer** building encrypted-first analytical infrastructure: confidential computing, envelope cryptography, and query engines that return answers without ever exposing the underlying dataset.
-- **Full-stack engineer** in modern React, Bun, Hono, and PostgreSQL, with deep experience in HIPAA-compliant architecture and isolated infrastructure.
+- **Founder and CEO of [Code Pause Inc.](https://codepause.com)**, building **[OutsideINsights](https://outsideinsights.health)**, clinical intelligence for care teams, and **[Voxi.Live](https://voxi.live)**, an avatar-driven live broadcast platform for the open web.
+- **Rust systems engineer** building encrypted-first analytical infrastructure: confidential computing, envelope cryptography, and query engines that return answers without exposing the dataset.
+- **Full-stack engineer** in React, Bun, Hono, and PostgreSQL, with deep experience in HIPAA-compliant architecture and isolated infrastructure.
 - **Space communications engineer** with **Pale Blue Systems**, applying QUIC, HTTP/3, and advanced multiplexing to space-to-ground links.
 - **EMT and crisis responder for 25 years**, currently volunteering on 988 crisis lines.
 - **Background in psychology and behavioral health**, which shapes how I design systems that bridge clinical rigor and human compassion.
@@ -30,50 +31,55 @@ I work at the intersection of clinical care, crisis response, and systems engine
 
 ## Current Work
 
+### [OutsideINsights](https://outsideinsights.health) · Clinical Intelligence
+*What happens outside the visit belongs inside the record.*
+
+- Clinical intelligence for care teams: connected-device data plus home context, delivered into the chart
+- EHR-native integration with Epic, Oracle Health, and athenahealth, no new login required
+- FDA-cleared monitoring devices, no home internet required
+- Capture → Validate → Integrate pipeline with VR-12-aligned continuous monitoring
+- Care Circle: "Better, Same, Worse" check-ins by text or app from the patient's care circle
+- OUTsights Gateway for device and EMR connectivity, including Rhapsody Health
+- Outcome monitoring for Medicare Advantage plans and payers
+
 ### Encrypted-First Analytical Infrastructure · Rust
-A confidential analytics platform built around a single invariant: there is no application path by which an analytics user can retrieve a plaintext dataset. Data enters encrypted, rests encrypted, is processed inside a protected execution boundary, and leaves only as authorized, disclosure-controlled results.
+*Data goes in. Analysis comes out. The dataset doesn't.*
 
-- Rust workspace of twelve crates with `unsafe_code = "deny"` across the board
-- Client-side encryption in the browser with non-extractable keys, so the server never holds a key that decrypts user data
-- Envelope-key hierarchy using HPKE (X25519, HKDF-SHA256, AES-256-GCM) with versioned framing and context binding
-- Connector pipelines that decrypt only inside attested AMD SEV-SNP enclaves, then zeroize buffers after writing ciphertext
-- Apache DataFusion query execution with a plan-level aggregate-only gate that rejects row dumps before they run
-- Keyed blind-index columns for equality filtering over ciphertext without revealing values
-- Steward-to-researcher grants with cohort suppression, monotonic query budgets, and a priced dataset catalog
+- No-plaintext invariant: no application path returns an unrestricted dataset
+- Rust workspace of twelve crates, `unsafe_code = "deny"`
+- Client-side encryption with non-extractable browser keys
+- HPKE envelope-key hierarchy (X25519, HKDF-SHA256, AES-256-GCM) with context binding
+- Attested AMD SEV-SNP enclaves for connector pipelines, buffers zeroized after write
+- Apache DataFusion with a plan-level aggregate-only gate
+- Keyed blind indexes for equality filters over ciphertext
+- Steward-to-researcher grants: cohort suppression, monotonic query budgets, priced catalog
 
-### Voxi.Live · Live Broadcast
-[Voxi.Live](https://voxi.live) is an avatar platform for the open web: go live as yourself, or as anyone, anywhere. It is Code Pause's first commercial surface and the proving ground for the company's privacy-first architecture at entertainment scale.
+### [Voxi.Live](https://voxi.live) · Live Broadcast
+*Go live as you. Or anyone. Anywhere.*
 
-- Browser-native studio with camera, microphone, screen, guests, preview, and backstage
-- Media over QUIC as the primary delivery path, with LL-HLS and destination-specific egress as fallbacks
-- Ingest compatibility across browser contribution, MoQ, WHIP, and RTMPS/SRT boundary adapters
-- Semantic avatars and multi-format program output from a single production
-- Multi-destination delivery, unified chat and moderation, live captions and translation, and creator monetization
-- Currently in alpha
-
-### OutsideINsights · Healthcare
-Clinical intelligence tools for unpaid home health caregivers, built for Medicare Advantage plans.
-
-- VR-12-aligned continuous monitoring that validates caregiver observations
-- "Better, Same, Worse" survey methodology for tracking patient trajectory
-- Real-time patient outcome monitoring for Medicare Advantage payers
-- TanStack ecosystem for data handling and UI
-- Rhapsody Health integration for EMR connectivity
+- Avatar platform for the open web, currently in alpha
+- Browser-native studio: camera, microphone, screen, guests, preview, backstage
+- Media over QUIC primary delivery with LL-HLS fallback
+- Ingest via browser contribution, MoQ, WHIP, and RTMPS/SRT adapters
+- Semantic avatars and multi-format output from one production
+- Multi-destination delivery, unified chat and moderation, live captions and translation
 
 ### Pale Blue Systems · Space Communications
-Next-generation communications infrastructure for space applications.
 
-- QUIC and HTTP/3 transport for low-latency, resilient space-to-ground communication
-- Spatial multiplexing and spectral tensor encoding for high-bandwidth optical transmission
-- DWDM optical systems and CCSDS packetization for efficient data delivery
-- Riccati-based signal processing and control systems
-- Network architectures designed for extreme environments
+- QUIC and HTTP/3 transport for space-to-ground links
+- Spatial multiplexing and spectral tensor encoding for optical transmission
+- DWDM optical systems and CCSDS packetization
+- Riccati-based signal processing and control
+- Network architectures for extreme environments
 
 ### Crisis Intervention
-Peer-to-peer de-escalation tools grounded in the Taft Method, distilling 25 years of EMT and crisis counseling experience into training and technology.
+
+- Peer-to-peer de-escalation tools grounded in the Taft Method
+- 25 years of EMT and crisis counseling experience, distilled into training and technology
 
 ### Applied AI
-Fine-tuning and evaluating fast/slow model architectures for clinical intelligence systems.
+
+- Fine-tuning and evaluation of fast/slow model architectures for clinical intelligence
 
 ---
 
@@ -103,7 +109,7 @@ Fine-tuning and evaluating fast/slow model architectures for clinical intelligen
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white)
 
-**Domains:** confidential computing (AMD SEV-SNP) · applied cryptography (HPKE, AES-GCM, blind indexing) · encrypted columnar storage · HIPAA-compliant system design · secure and isolated infrastructure · EMR integration · Media over QUIC and low-latency streaming · transport protocols (QUIC, HTTP/3) · optical transmission and signal processing
+**Domains:** confidential computing (AMD SEV-SNP) · applied cryptography (HPKE, AES-GCM, blind indexing) · encrypted columnar storage · HIPAA-compliant system design · secure and isolated infrastructure · EHR and EMR integration · Media over QUIC and low-latency streaming · transport protocols (QUIC, HTTP/3) · optical transmission and signal processing
 
 ---
 
@@ -113,7 +119,6 @@ Fine-tuning and evaluating fast/slow model architectures for clinical intelligen
 - Shipping the Voxi.Live alpha: browser studio, Media over QUIC delivery, and the native audience experience
 - Raising a funding round for OutsideINsights
 - Building market intelligence on Medicare Advantage payers, including UnitedHealth, Humana, and CVS Health
-- Positioning the $600B unpaid caregiver workforce as the answer to Medicare's patient-monitoring gap
 - Advancing multiplexing and optical transmission work with Pale Blue Systems
 
 ---
@@ -132,9 +137,10 @@ Fine-tuning and evaluating fast/slow model architectures for clinical intelligen
 
 I welcome conversations with collaborators, investors, and anyone working on confidential computing, healthcare, live media, crisis response, or space communications.
 
-- Portfolio: [ioio.dev](https://ioio.dev)
-- Company: [codepause.com](https://codepause.com)
+- OutsideINsights: [outsideinsights.health](https://outsideinsights.health)
 - Voxi.Live: [voxi.live](https://voxi.live)
+- Company: [codepause.com](https://codepause.com)
+- Portfolio: [ioio.dev](https://ioio.dev)
 - GitHub: [@AxolDad](https://github.com/AxolDad)
 
 <div align="center">
