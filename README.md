@@ -9,7 +9,8 @@ Building privacy-first infrastructure for clinical care teams, live media, and c
 <a href="https://codepause.com"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/codepause-dark.svg"><img src="assets/codepause-light.svg" height="36" alt="Code Pause"></picture></a>&nbsp;&nbsp;&nbsp;
 <a href="https://outsideinsights.health"><img src="assets/outsideinsights.png" height="36" alt="OutsideINsights"></a>&nbsp;&nbsp;&nbsp;
 <a href="https://voxi.live"><img src="assets/voxi.svg" height="36" alt="Voxi.Live"></a>&nbsp;&nbsp;&nbsp;
-<a href="https://adminabuse.app"><img src="assets/adminabuse.png" height="36" alt="AdminAbuse.app"></a>
+<a href="https://adminabuse.app"><img src="assets/adminabuse.png" height="36" alt="AdminAbuse.app"></a>&nbsp;&nbsp;&nbsp;
+<a href="https://weathervibe.app"><img src="assets/weathervibe.png" height="36" alt="WeatherVibe.app"></a>
 
 [![OutsideINsights](https://img.shields.io/badge/Product-OutsideINsights-0E7C86?style=flat-square)](https://outsideinsights.health)
 [![Voxi.Live](https://img.shields.io/badge/Product-Voxi.Live-7C3AED?style=flat-square)](https://voxi.live)
@@ -91,6 +92,14 @@ I build systems where the operator never has to be trusted with the data. Twenty
 - No signup: developers describe the session in their event listing, streamers tag their title, and both are picked up within minutes
 - Every listing shows how confident the match is and the exact words it came from
 
+### <img src="assets/weathervibe.png" height="24" alt=""> [WeatherVibe.app](https://weathervibe.app) · Weather Intelligence
+*Live US weather translated into plain-language lifestyle insights.*
+
+- Run Report, Skin Health, Frizz Forecast, Migraine Meter, Pollen Count, and air-quality risk, each backed by published atmospheric science
+- Built on National Weather Service forecasts and observations, enriched with EPA AirNow, Google Pollen, and OpenWeather data
+- Sky cards for aurora probability, light pollution, moon phase, meteor showers, and eclipses, drawn from NOAA and NASA open data and computed locally
+- Web app on Cloudflare Workers
+
 ### [Pale Blue Systems Foundation](https://github.com/Pale-Blue-Systems) · Space Communications
 *Interoperability before the infrastructure is fixed.* Published as Jeremy L. D. Ryan.
 
@@ -147,6 +156,7 @@ Open to conversations with investors, collaborators, and teams working in confid
 - OutsideINsights: [outsideinsights.health](https://outsideinsights.health)
 - Voxi.Live: [voxi.live](https://voxi.live)
 - AdminAbuse.app: [adminabuse.app](https://adminabuse.app)
+- WeatherVibe.app: [weathervibe.app](https://weathervibe.app)
 - Pale Blue Systems Foundation: [github.com/Pale-Blue-Systems](https://github.com/Pale-Blue-Systems)
 - Company: [codepause.com](https://codepause.com)
 - Portfolio: [ioio.dev](https://ioio.dev)
