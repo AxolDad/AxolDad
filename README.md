@@ -38,7 +38,7 @@ I build systems where the operator never has to be trusted with the data. Twenty
 - **Engineer across the stack, by necessity.** Rust where the trust boundaries live, TypeScript where the people do, Media over QUIC where the latency does, and HIPAA-grade architecture underneath all of it.
 - **Building open communication standards for delay-tolerant space systems** with the **[Pale Blue Systems Foundation](https://github.com/Pale-Blue-Systems)**.
 - **EMT and crisis responder for 25 years**, currently volunteering on 988 crisis lines, with a background in psychology and behavioral health.
-- **Decades as a logistician** before I wrote software: the United States Air Force (Logistics Management Specialist, Security Forces, and Chemical Warfare Survival Instructor), local and regional disaster response, the American Red Cross, and multiple private organizations. It is why I built [xin.bz](https://xin.bz).
+- **Decades as a logistician** before I wrote software: the United States Air Force (Logistics Management Specialist, Security Forces, and Chemical Warfare Survival Instructor), local and regional disaster response, the American Red Cross, and multiple private organizations.
 - Off the clock: father of five, rare books, commemorative coins, aquascaping, welding, and a modern adaptation of *The Mysteries of Udolpho*.
 
 ---
