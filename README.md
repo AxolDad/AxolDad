@@ -22,6 +22,14 @@ Building privacy-first infrastructure for clinical care teams, live media, and c
 
 ---
 
+## News
+
+**September 8, 2026 — [Code Pause, Inc. Advances Real-Time Communications with Voxi.live and Telehealth over QUIC](https://codepause.com/press/voxi-live-telehealth-over-quic/)**
+
+A live, browser-based Voxi.Live avatar session measured approximately 93 ms of edge-clock-calibrated capture-to-render video latency over Media over QUIC (≈30 fps VP8 over MOQT draft 16 at ≈1.42 Mbps, zero decoder rejections, zero decoder backlog). The same communications foundation is being applied to Telehealth over QUIC (ToQ) for OutsideINsights. Also published on [voxi.live](https://voxi.live/press/voxi-live-telehealth-over-quic) and [outsideinsights.health](https://outsideinsights.health/press/voxi-live-telehealth-over-quic).
+
+---
+
 ## About
 
 I build systems where the operator never has to be trusted with the data. Twenty-five years as an EMT and crisis responder taught me what happens when systems fail the people inside them, and that is the standard I design against.
@@ -80,6 +88,7 @@ I build systems where the operator never has to be trusted with the data. Twenty
 *Go live as you. Or anyone. Anywhere.*
 
 - Built on Media over QUIC (MoQ), tracking the IETF transport spec at draft-16, on the Cloudflare MoQ relay system
+- Measured ≈93 ms capture-to-render latency in a live avatar session ([press release](https://codepause.com/press/voxi-live-telehealth-over-quic/))
 - WHIP in, MoQ out, LL-HLS fallback from the same segments; chat, presence, and reactions ride the same QUIC connection as video
 - Rust end to end, including the WebAssembly browser player
 - Browser-native studio: the tab encodes and publishes directly, and the server never sees an unencoded pixel
