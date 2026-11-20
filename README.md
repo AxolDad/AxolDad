@@ -1,6 +1,6 @@
 <div align="center">
 
-# AxolDad
+# Jeremy L.D. Ryan
 
 **CEO & Founder, Code Pause Inc.** · Rust and TypeScript systems engineer · 25-year EMT and crisis responder
 
